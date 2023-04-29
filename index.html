@@ -1,0 +1,413 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/input.css" >
+    <title>Komang Ryandhi Suandita</title>
+    
+  </head>
+  <body class="font-nunito" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="67">
+    <!-- into section -->
+    <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-7" src="./img/logo.png" alt="" />
+            <span class="text-xl font-bold text-indigo-600 dark:text-white"
+              >komangryandhi</span
+            >
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500">
+              <a href="#">home</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#about">about me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#activities">activities</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#projects">projects</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <div class="flex  items-center ">
+          <img
+            id="its"
+            src="./img/its.png"
+            class="hidden md:block w-10 cursor-pointer "
+            alt=""
+          />
+          <img
+            id="mat"
+            src="./img/mat.png"
+            class="hidden md:block w-10 cursor-pointer"
+            alt=""
+          />
+        </div>
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li >
+              <a id="hLink" href="#">home</a>
+            </li>
+            <li>
+              <a id="hLink" href="#about">about me</a>
+            </li>
+            <li>
+              <a id="hLink" href="#activities">activities</a>
+            </li>
+            <li>
+              <a id="hLink" href="#projects">projects</a>
+            </li>
+            <li>
+              <a id="hLink" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        src="./img/man.jpeg"
+        alt=""
+      />
+      <!-- circle round -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg bg-yellow-100 rounded-full -z-10"    
+      ></div>
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold"
+      >
+        <span class="text-gray-600 ">Komang Ryan</span>
+        <p id="text" class="text-indigo-600"></p>
+      </div>
+      <!-- texts -->
+      <div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
+      >
+        <h1 class="text-4xl font-bold text-indigo-100">Hello, I'm Ryan</h1>
+        <p class="text-gray-400">
+          I'm a student of Mathematics at Sepuluh Nopember Institute of Technology, currently in 4th semester
+        
+        </p>
+        <a
+          class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#contact"
+          >Contact Me</a
+        >
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="px-10 dark:bg-slate-900">
+      <div
+        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+      >
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./img/dots.png"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden w-12">
+            <img src="./img/portrait.png" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3">
+          <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+          <h1 class="text-3xl font-medium dark:text-white">Let Know Me More</h1>
+          
+          <p class="text-gray-400">
+             Greatly motivated to develop my own skill, also interested in deveploment of technology such as front end, back end, big data and machine learning.
+             I still learning and keep practicing, I believe that prefect practice makes perfect.
+          </p>
+          
+          <div class="col-lg-6 mt-lg-0 mt-5 pt-lg-0 pt-4">
+          
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="p-4 border rounded">
+                        <!-- <h6 class="text-center fw-normal"><dt>Biodata Diri</dt></h6> -->
+                        <h6 class="fw-semibold fs-6">
+                            <table class="table table-borderless">
+                                <thead>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td><strong>Full Name</strong></td>
+                                    <td>: Komang Ryandhi Suandita </td>
+                                  </tr>
+                                  <tr>
+                                    <td><strong>Faculty / Major</strong></td>
+                                    <td>: FSAD / Mathematical Sciences</td>
+                                  </tr>
+                                  <tr>
+                                    <td><strong>NRP</strong></td>
+                                    <td>: 5002211109</td>
+                                  </tr>
+                                  <tr>
+                                    <td><strong>Place / Date of Birth</strong></td>
+                                    <td>: Bandung / 24 July 2003</td>
+                                  </tr>
+                                  
+                                  <tr>
+                                    <td><strong>Email</strong></td>
+                                    <td>: kryandhi@gmail.com</td>
+                                  </tr>
+                                  
+                                  <tr>
+                                    <td><strong>Phone Number</strong></td>
+                                    <td>: 085281817975</td>
+                                  </tr>
+                                </tbody>
+                                
+                              </table>
+
+                              
+                        </h6>                               
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <h2 class="text-gray-400 font-medium">Java</h2>
+          <div class="w-4/6 bg-gray-200 h-1.5 rounded-md">
+            <div class="w-1/2 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">Python</h2>
+          <div class="w-4/6 bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">HTML</h2>
+          <div class="w-4/6 bg-gray-200 h-1.5 rounded-md">
+            <div class="w-1/3 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- activities -->
+    <div id="activities" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">ACTIVITIES</h1>
+          <h1 class="text-3xl dark:text-white">What I Do ?</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Some of My Activities Inside & Outside Campus
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/its2.png" alt="" />
+            <h1 class="font-bold text-lg dark:text-white">Staff of Internal TPKH ITS 2023</h1>
+            <img src="./img/act1.jpg" alt="" />
+            <p class="text-gray-400">
+              TPKH-ITS is a religious organization that houses Hindu students and lecturers on the basis of Family and professionalism. By becoming part of TPKH-ITS, together we create a second family to create spiritually based students and academics who are active in providing benefits to society.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://www.its.ac.id/id/kehidupan-kampus/kegiatan-mahasiswa/aktivitas-spiritual-mahasiswa-di-its/tim-pembina-kerohanian-hindu-its/#:~:text=Tim%20Pembina%20Kerohanian%20Hindu%20(TPKH,dengan%20asas%20kekeluargaan%20dan%20profesionalisme."
+              >Read More in Website</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-8" src="./img/itb.png" alt="" />
+            <h1 class="font-bold text-lg dark:text-white">GDSC ITB 2022</h1>
+            <img src="./img/act2.png" alt="" />
+            <p class="text-gray-400">
+              Developer Student Clubs are university-based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. 
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://gdsc.community.dev/"
+              >Read More in Website</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/its2.png" alt="" />
+            <h1 class="font-bold text-lg dark:text-white">
+              Staff of IT Bandung ILITS 2022 </h1>
+              <img src="./img/act3.jpg" alt="" />
+            <p class="text-gray-400">
+              Ini Lho ITS! 2022 (ILITS) is the annual event that helps student in high schools to find their dream majors. ILITS has purposes for introducing ITS, such as environments, departments, faculties, campus life, accreditation, achivements, and facilities.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://inilho.its.ac.id/"
+              >Read More in Website</a
+            >
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- project -->
+    <div id="projects" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+          <h1 class="text-3xl dark:text-white">Works & Projects</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Some of My Projects in college
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+         <a href="https://github.com/kryandhi/Final-Project-OOP" 
+         class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110" >
+        <img src="./img/prj1.png" />
+        </a> 
+        
+            
+            
+          
+          <!-- card -->
+          <a href="https://github.com/kryandhi/Final-Project-OOP" 
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110" >
+            <img src="./img/prj2.png" />
+          </a> 
+          <!-- card -->
+          
+          <a href="https://github.com/kryandhi/Snake-Game-Final-Project-PBO" 
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110" >
+           
+            <img src="./img/prj3.png" />
+          </a> 
+          <!-- card -->
+          
+          <!-- card -->
+          <a href="https://github.com/kryandhi/Snake-Game-Final-Project-PBO" 
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110" >
+           
+            <img src="./img/prj4.png" />
+          </a> 
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">CONTACT ME</h1>
+          <h1 class="text-3xl dark:text-white">Have a Message or Question?</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Let's discuss it and see what we can do
+            together.
+          </p>
+        </div>
+        <!-- bottom -->
+        <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            placeholder="Full Name"
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            placeholder="University/Major"
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="instagram"
+            placeholder="Instagram"
+          />
+          <textarea
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            cols="30"
+            rows="10"
+            placeholder="Message to Komang Ryandhi Suandita"
+          ></textarea>
+          <button
+            class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full bg-indigo-900">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img class="w-8" src="./img/logo.png" alt="" />
+          <span class="text-2xl font-bold text-white">komangryandhi</span>
+        </div>
+        <span class="hidden md:block font-medium text-white"
+          >© 2023 TailwindCSS. Komang Ryandhi Suandita</span
+        >
+        <div class="flex gap-2">
+          <span class="text-1xl font-bold text-white">Follow Me in </span>
+          <a href="https://www.instagram.com" class="w-5 cursor-pointer" src="./img/instagram.png" alt="" href="https://www.linkedin.com/in/komang-ryandhi-suandita-11699b1ab/" 
+          target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+          
+        </a>
+
+          <a 
+          class="w-4 cursor-pointer" alt=""
+        href="https://www.linkedin.com/in/komang-ryandhi-suandita-11699b1ab/"
+         target="_blank" 
+         class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+
+        
+        <a 
+        class="w-5 cursor-pointer" alt=""
+      href="https://github.com/kryandhi"
+       target="_blank" 
+       class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+      
+        </div>
+      </div>
+    </div>
+    
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+  </body>
+</html>
